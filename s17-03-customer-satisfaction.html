@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link href="shared/bookhub.css" rel="stylesheet" type="text/css">
+  <title>Customer Satisfaction</title>
+</head>
+<body>
+
+  
+  <div id=navbar-top class="navbar">
+    <div class="navbar-part left">
+      
+        <a href="s17-02-loyalty-management.html"><img src="shared/images/batch-left.png"></a> <a href="s17-02-loyalty-management.html">Previous Section</a>
+      
+    </div>
+    <div class="navbar-part middle">
+      <a href="index.html"><img src="shared/images/batch-up.png"></a> <a href="index.html">Table of Contents</a>
+    </div>
+    <div class="navbar-part right">
+      
+        <a href="s17-04-ethics-laws-and-customer-empow.html">Next Section</a> <a href="s17-04-ethics-laws-and-customer-empow.html"><img src="shared/images/batch-right.png"></a>
+      
+    </div>
+  </div>
+
+  <div id="book-content">
+    <div class="section" id="fwk-133234-ch14_s03" condition="start-of-chunk" version="5.0" lang="en">
+    <h2 class="title editable block">
+<span class="title-prefix">14.3</span> Customer Satisfaction</h2>
+    <div class="learning_objectives editable block" id="fwk-133234-ch14_s03_n01">
+        <h3 class="title">Learning Objectives</h3>
+        <ol class="orderedlist" id="fwk-133234-ch14_s03_l01">
+            <li>Understand satisfaction and satisfaction strategies.</li>
+            <li>Design a customer satisfaction measurement system.</li>
+            <li>Describe complaint management strategies.</li>
+        </ol>
+    </div>
+    <div class="section" id="fwk-133234-ch14_s03_s01">
+        <h2 class="title editable block">Customer Satisfaction Defined</h2>
+        <p class="para editable block" id="fwk-133234-ch14_s03_s01_p01">What comes to mind when you hear someone say, “A satisfied customer”? Perhaps it is an image of someone smiling with the pride of knowing he got a good deal. Or perhaps it is the childlike look of happiness someone exhibits after purchasing a new pair of shoes that are just the right color. Whatever your picture of a satisfied customer is, <span class="margin_term"><a class="glossterm">customer satisfaction</a><span class="glossdef">The feeling that results when an offering meets a consumer’s expectations.</span></span> is typically defined as the feeling that a person experiences when an offering meets his or her expectations. When an offering meets the customer’s expectations, the customer is satisfied.</p>
+        <p class="para editable block" id="fwk-133234-ch14_s03_s01_p02">Improving customer satisfaction is a goal sought by many businesses. In fact, some companies evaluate their salespeople based on how well they satisfy their customers; in other words, not only must the salespeople hit their sales targets, they have to do so in ways that satisfy customers. Teradata is one company that pays its salespeople bonuses if they meet their customer satisfaction goals.</p>
+        <p class="para editable block" id="fwk-133234-ch14_s03_s01_p03">Customer satisfaction scores have been relatively stable for the past few years as illustrated in <a class="xref" href="#fwk-133234-ch14_s03_s01_t01">Table 14.2 "Industry-Average Customer Satisfaction Scores, 2000–2010"</a>. You might think that if increasing the satisfaction of customers were, indeed, the goal of businesses, the scores should show a steady increase. Why don’t they? Maybe it’s because just satisfying your customers is a <em class="emphasis">minimal</em> level of performance. Clearly customer satisfaction is important. However, it isn’t a good predictor of a customer’s future purchases or brand loyalty. For example, one study of customer satisfaction examined car buyers. Although the buyers rated their satisfaction levels with their purchases 90 percent or higher, only 40 percent of them purchased the same brand of car the next time around.<span class="footnote" id="fwk-tanner-fn14_010">Raphaelle Lambert-Pandraud, Gilles Laurent, and Eric Lapersonne, “Repeat Purchasing of New Automobiles by Older Consumers: Empirical Evidence and Interpretations,” <em class="emphasis">Journal of Marketing</em> 69, no. 2 (2005): 97–106.</span></p>
+        <div class="table block" id="fwk-133234-ch14_s03_s01_t01" frame="all" version="5.0">
+            <p class="title"><span class="title-prefix">Table 14.2</span> Industry-Average Customer Satisfaction Scores, 2000–2010</p>
+            <table cellpadding="0" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th align="center">2000</th>
+                        <th align="center">2001</th>
+                        <th align="center">2002</th>
+                        <th align="center">2003</th>
+                        <th align="center">2004</th>
+                        <th align="center">2005</th>
+                        <th align="center">2006</th>
+                        <th align="center">2007</th>
+                        <th align="center">2008</th>
+                        <th align="right">2009</th>
+                        <th align="right">2010</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Appliances</td>
+                        <td align="right">85</td>
+                        <td align="right">82</td>
+                        <td align="right">82</td>
+                        <td align="right">81</td>
+                        <td align="right">82</td>
+                        <td align="right">80</td>
+                        <td align="right">81</td>
+                        <td align="right">82</td>
+                        <td align="right">80</td>
+                        <td align="right">82</td>
+                        <td align="right">81</td>
+                    </tr>
+                    <tr>
+                        <td>Computers</td>
+                        <td align="right">72</td>
+                        <td align="right">74</td>
+                        <td align="right">71</td>
+                        <td align="right">71</td>
+                        <td align="right">72</td>
+                        <td align="right">74</td>
+                        <td align="right">77</td>
+                        <td align="right">75</td>
+                        <td align="right">74</td>
+                        <td align="right">78</td>
+                        <td align="right">78</td>
+                    </tr>
+                    <tr>
+                        <td>Electronics</td>
+                        <td align="right">83</td>
+                        <td align="right">81</td>
+                        <td align="right">81</td>
+                        <td align="right">84</td>
+                        <td align="right">82</td>
+                        <td align="right">81</td>
+                        <td align="right">80</td>
+                        <td align="right">83</td>
+                        <td align="right">83</td>
+                        <td align="right">85</td>
+                        <td align="right">85</td>
+                    </tr>
+                    <tr>
+                        <td>Cars</td>
+                        <td align="right">80</td>
+                        <td align="right">80</td>
+                        <td align="right">80</td>
+                        <td align="right">80</td>
+                        <td align="right">79</td>
+                        <td align="right">80</td>
+                        <td align="right">81</td>
+                        <td align="right">82</td>
+                        <td align="right">82</td>
+                        <td align="right">82</td>
+                        <td align="right">83</td>
+                    </tr>
+                </tbody>
+            </table>
+                    <div class="copyright">
+                <p class="para">Source: American Customer Satisfaction Index, <a class="link" target="_blank" href="http://www.theacsi.org">http://www.theacsi.org</a> (accessed October 10, 2011).</p>
+            </div>
+        </div>
+        <p class="para editable block" id="fwk-133234-ch14_s03_s01_p04">Keep in mind, though, that satisfaction scores are a function of what the customer expected as well as what the company delivered. So the flat scores in <a class="xref" href="#fwk-133234-ch14_s03_s01_t01">Table 14.2 "Industry-Average Customer Satisfaction Scores, 2000–2010"</a> reflect rising customer expectations as well as improved products. In other words, the better products get, the more it takes to satisfy consumers.</p>
+        <p class="para editable block" id="fwk-133234-ch14_s03_s01_p05">There is also a downside to continuously spending more to satisfy your customers. Recent research shows that firms that do so can experience higher sales revenues. However, after the additional spending costs are factored in, the net profits that result are sometimes marginal or even negative. Nonetheless, satisfaction is not unimportant. A company’s performance on key factors is critical both in terms of the loyalty and satisfaction it generates among its customers.<span class="footnote" id="fwk-tanner-fn14_011">Gustavo Souki and Cid G. Filho, “Perceived Quality, Satisfaction and Customer Loyalty: An Empirical Study in the Mobile Phones Sector in Brazil,” <em class="emphasis">International Journal of Internet and Enterprise Management</em> 5, no. 4 (2008): 298–314.</span></p>
+    </div>
+    <div class="section" id="fwk-133234-ch14_s03_s02">
+        <h2 class="title editable block">Customer Satisfaction Strategies</h2>
+        <p class="para editable block" id="fwk-133234-ch14_s03_s02_p01">So what or how much should you do to improve the satisfaction of your customer? If customer satisfaction can be defined as the feeling a person experiences when an offering meets his or her expectations, then there are two critical ways to improve customer satisfaction. The first is to establish appropriate expectations in the minds of customers. The second is to deliver on those expectations.</p>
+        <p class="para editable block" id="fwk-133234-ch14_s03_s02_p02">We know that dissatisfied customers are likely to tell many more friends about their negative experiences than satisfied customers are about good experiences. Why? Because there’s more drama in unmet expectations. A story about met expectations—telling a friend about a night out that was average, for example—is boring. Jan Carlson, a former Scandinavian Airlines executive, was famous for promoting the concept of “delighted” customers. Carlson’s idea was that delighting customers by overexceeding their expectations should result in both repeat business and positive word of mouth for a firm. The fact that stories about plain old satisfaction are boring is also why influencer communities, such as JCPenney’s Ambrielle community, are so important. Influencers have new offerings to talk about, which are interesting topics, and other buyers want to know their opinions.</p>
+        <p class="para editable block" id="fwk-133234-ch14_s03_s02_p03">Establishing appropriate expectations in the minds customers is a function of the prepurchase communications the seller has with them. If you set the expectations too low, people won’t buy your offering. But if you set the expectations too high, you run the risk that your buyers will be dissatisfied. A common saying in business is “underpromise and overdeliver.” In other words, set consumers’ expectations a bit low, and then exceed those expectations in order to create delighted customers who are enthusiastic about your product. A seller hopes that enthusiastic customers will tell their friends about the seller’s offering, spreading lots of positive word of mouth about it.</p>
+
+        <p class="para editable block" id="fwk-133234-ch14_s03_s02_p04">One customer satisfaction strategy that grew out of Carlson’s idea of delighting customers is to empower customer-facing personnel. Customer-facing personnel are employees that meet and interact with customers. In a hotel, this might include desk clerks, housekeepers, bellman, and other staff. Empowering these employees to drop what they’re doing in order to do something special for a customer, for example, can certainly delight customers. In some organizations, employees are even given a budget for such activities.</p>
+        <p class="para editable block" id="fwk-133234-ch14_s03_s02_p05">Ritz-Carlton employees each have an annual budget that can be spent on customer service activities, such as paying for dry cleaning if a customer spilled red wine on a dress in the hotel’s restaurant. Sewell Cadillac is famous for how its employees serve its customers. An employee will even pick up a customer up on a Sunday if a Sewell-purchased car breaks down. Other dealers might delegate such a service to another company, but at Sewell, the same salesperson who sold the car might be the person who handles such a task. To Sewell, customer service is too important to trust to another company—a company that perhaps won’t feel the same sense of urgency to keep car buyers as satisfied as Sewell does.</p>
+        <p class="para editable block" id="e124.tanner_p-5254-20111108-122641-005524">Companies like Ritz-Carlton also monitor Twitter and other social media so that any problems can be identified in real time. For example, one newlywed tweeted that the view outside her window of another wall was no way to spend a honeymoon. A Ritz-Carlton employee caught the tweet and employees at the hotel responded with a room upgrade.</p>
+        <p class="para editable block" id="fwk-133234-ch14_s03_s02_p06">Empowerment is more than simply a budget and a job description—frontline employees also need customer skills. Companies like Ritz-Carlton and Sewell spend a great deal of time and effort to ensure that employees with customer contact responsibilities are trained and prepared to handle small and large challenges with equal aplomb.</p>
+        <p class="para editable block" id="fwk-133234-ch14_s03_s02_p07">Another customer satisfaction strategy involves offering customers warranties and guarantees. Warranties serve as an agreement that the product will perform as promised or some form of restitution will be made to the customer. Customers who are risk-averse find warranties reassuring.</p>
+        <p class="para editable block" id="fwk-133234-ch14_s03_s02_p08">One form of dissatisfaction is <span class="margin_term"><a class="glossterm">postpurchase dissonance</a><span class="glossdef">A situation in which consumers rethink their decisions after purchasing products and wonder if they made the best decision.</span></span>, which we described in <a class="xref" href="fwk-133234-ch03#fwk-133234-ch03">Chapter 3 "Consumer Behavior: How People Make Buying Decisions"</a>. Recall that it is also called <em class="emphasis">buyer’s remorse</em>. Postpurchase dissonance is more likely to occur when an expensive product is purchased, the buyer purchases it infrequently and has little experience with it, and there is a perception that it is a high-risk purchase. Many marketers address postpurchase dissonance by providing their customers with reassuring communications. For example, a boat dealer might send a buyer a letter that expresses the dealer’s commitment to service the boat and that also reminds the buyer of all the terrific reasons he or she purchased it. Alternatively, the dealer could have the salesperson who sold the boat telephone the buyer to answer any questions he or she might have after owning and operating the boat for a couple of weeks.</p>
+
+    </div>
+    <div class="section" id="fwk-133234-ch14_s03_s03">
+        <h2 class="title editable block">Measuring Customer Satisfaction</h2>
+        <p class="para editable block" id="fwk-133234-ch14_s03_s03_p01">To measure customer satisfaction, you need to able to understanding what creates it. Just asking customers, “Are you satisfied?” won’t tell you much. Yet many companies often measure the satisfaction of their customers on the basis of only a few questions: “How satisfied were you today?” “Would you recommend us to your friends?” and “Do you intend to visit us again?”</p>
+        <p class="para editable block" id="fwk-133234-ch14_s03_s03_p02">Effective customer satisfaction measures have several components. The two general components are the customer’s expectations and whether the organization performed well enough to meet them. A third component is the degree of satisfaction, or to put it in terms we’ve used to describe exceptional performance, is the customer delighted?</p>
+        <p class="para editable block" id="fwk-133234-ch14_s03_s03_p03">To figure out if a customer’s expectations were met and they are delighted, more detail is usually required. Companies might break the offering into major components and ask how satisfied customers were with each. For example, a restaurant might ask the following:</p>
+        <ul class="itemizedlist editable block" id="fwk-133234-ch14_s03_s03_l01">
+            <li>Were you greeted promptly by a host? By your server at your table?</li>
+            <li>Was your order taken promptly?</li>
+            <li>How long did you wait for your food?</li>
+            <li>Was the food served at the appropriate temperature?</li>
+        </ul>
+        <p class="para editable block" id="fwk-133234-ch14_s03_s03_p04">These questions assume that each aspect of the service is equally important to the customer. However, some surveys ask customers to rate how important they are. Other surveys simply “weight,” or score, questions so that aspects that are known to be more important to customers have a greater impact on the overall satisfaction score. For example, a restaurant might find that prompt service, good taste, and large portions are the only three factors that usually determine customers’ overall satisfaction. In that case, the survey can be shortened considerably. At the same time, however, space should be left on the survey so customers can add any additional information that could yield important insight. This information can be used to find out if there are customer service problems that a firm wasn’t aware of or if the preferences of consumers in general are changing.</p>
+        <p class="para editable block" id="fwk-133234-ch14_s03_s03_p05">You will still find customer satisfaction survey cards that just ask, “How satisfied were you today?” “Would you recommend us to your friends?” and “Do you intend to visit us again?” The information obtained from these surveys can still be useful if it’s paired with a more comprehensive measurement program. For instance, a sample of customers could be given the opportunity to provide more detailed information via another survey and the two surveys could be compared. Such a comparison can help the company pinpoint aspects that need improvement. In addition, the company has given every customer an opportunity to provide input, which is an important part of any empowerment strategy.</p>
+    </div>
+    <div class="section" id="fwk-133234-ch14_s03_s04">
+        <h2 class="title editable block">Complaint Management Strategies</h2>
+        <p class="para editable block" id="fwk-133234-ch14_s03_s04_p01">When buyers want to complain about products or companies, they have many ways to do so. They can complain to the companies they’re upset with, tell their friends, or broadcast their concerns on the Internet. People who use every Internet site possible to bash a company are called <em class="emphasis">verbal terrorists</em>. The term was coined by Paul Greenberg, a marketing analyst who authored the wildly popular book <em class="emphasis">CRM at the Speed of Light</em>.</p>
+        <p class="para editable block" id="fwk-133234-ch14_s03_s04_p02">Should companies worry about verbal terrorists? Perhaps so. A recent study indicates that customer satisfaction scores could be less important to a firm’s success or failure than the number of complaints its gets.<span class="footnote" id="fwk-tanner-fn14_012">X. Lou and C. Homburg, “Satisfaction, Complaint, and the Stock Value Gap,” <em class="emphasis">Journal of Marketing</em> 72, no. 3 (2008): 29–43.</span> To measure the tradeoff between the two, customer satisfaction guru Fred Reicheld devised something called the <em class="emphasis">net promoter score</em>. The net promoter score is the number of recommenders an offering has minus the number of complainers.<span class="footnote" id="fwk-tanner-fn14_013">Fred Reicheld, <em class="emphasis">The Ultimate Question: Driving Good Profits and True Growth</em> (Boston: Harvard Business Press, 2006).</span> The more positive the score, the better the company’s performance. According to another recent study, a company with fewer complaints is also more likely to have better financial performance.</p>
+        <p class="para editable block" id="fwk-133234-ch14_s03_s04_p03">Studies also show that if a company can resolve a customer’s complaint well, then the customer’s attitude toward the company is improved, possibly even beyond the level of his or her original satisfaction. Some experts have argued, perhaps jokingly, that if this is the case, a good strategy might be to make customers mad and then do a good job of resolving their problems. Practically speaking, though, the best practice is to perform at or beyond customer expectations so fewer complaints will be received in the first place.</p>
+        <p class="para editable block" id="fwk-133234-ch14_s03_s04_p04">Customers will complain, though, no matter how hard firms try to meet or exceed their expectations. Sometimes, the complaint is in the form of a suggestion and simply reflects an opportunity to improve the experience. In other instances, the complaint represents a service or product failure.</p>
+        <p class="para editable block" id="fwk-133234-ch14_s03_s04_p05">When a complaint is made, the process for responding to it is as important as the outcome. And consumers judge companies as much for whether their response processes seem fair as whether they got what they wanted. For that reason, some companies create customer service departments with specially trained personnel who can react to complaints. Other companies invest heavily in preparing all customer-facing personnel to respond to complaints. Still other companies outsource their customer service. When the service is technical, marketers sometimes outsource the resolution of complaints to companies that specialize in providing technical service. Computer help lines are an example. Technical-support companies often service the computer help lines of multiple manufacturers. A company that outsources its service nonetheless has to make sure that customer complaints are handled as diligently as possible. Otherwise, customers will be left with a poor impression.</p>
+        <div class="section" id="fwk-133234-ch14_s03_s04_s01">
+            <h2 class="title editable block">Handling the Complaint Process</h2>
+            <p class="para editable block" id="fwk-133234-ch14_s03_s04_s01_p01">A good customer complaint handling process involves the steps listed below. Note that one step is to acknowledge the customer’s feelings. A customer who is angry or upset due to a failure does not want to be patronized or have his or her problems taken lightly. The situation is important to the customer and should be important to the person listening and responding to the complaint.</p>
+            <ul class="itemizedlist editable block" id="fwk-133234-ch14_s03_s04_s01_l01">
+                <li>Listen carefully to the complaint</li>
+                <li>Acknowledge the customer’s feelings</li>
+                <li>Determine the root cause of the problem</li>
+                <li>Offer a solution</li>
+                <li>Gain agreement on the solution and communicate the process of resolution</li>
+                <li>Follow up, if appropriate</li>
+                <li>Record the complaint and resolution</li>
+            </ul>
+            <p class="para editable block" id="fwk-133234-ch14_s03_s04_s01_p02">Note that the complaint-resolution process involves communicating that process and gaining agreement on a solution, even if the customer sometimes might not like the outcome. He or she still needs to know what to expect.</p>
+            <p class="para editable block" id="fwk-133234-ch14_s03_s04_s01_p03">Finally, the complaint process includes recording the complaint. We stated earlier that a firm’s best strategy is to perform at or beyond the customer’s expectations so as to minimize the number of complaints it receives in the first place. Analyzing your company’s complaints can help you identify weak points in a service process or design flaws in a product, as well as potential miscommunications that are raising customer’ expectations unreasonably. To conduct this analysis, however, you need a complete record of the complaints made.</p>
+            <p class="para editable block" id="fwk-133234-ch14_s03_s04_s01_p04">A complaint record should reflect the main reason an offering failed. Typically, the failure can be attributed to one (or more) of the following four gaps:<span class="footnote" id="fwk-tanner-fn14_014">Michael Levy and Barton Weitz, <em class="emphasis">Retailing Management</em>, 7th ed. (Burr Ridge, IL: McGraw-Hill, 2009.)</span></p>
+            <ol class="orderedlist editable block" id="fwk-133234-ch14_s03_s04_s01_l02">
+                <li>The <span class="margin_term"><a class="glossterm">communication gap</a><span class="glossdef">A gap that occurs when a marketer overstates the performance level of a product, thereby creating unrealistic expectations on the part of consumers.</span></span>. Overstating the offering’s performance level, thereby creating unrealistic expectations on the part of customers.</li>
+                <li>The <span class="margin_term"><a class="glossterm">knowledge gap</a><span class="glossdef">A firm’s failure to understand a customer’s expectations or needs, which then leads it to create an offering that disappoints the customer.</span></span>. Not understanding the customer’s expectations or needs, which then leads a company to create a product that disappoints the customer.</li>
+                <li>The <span class="margin_term"><a class="glossterm">standards gap</a><span class="glossdef">A gap that results when a marketer sets performance standards for a product that are too low, in spite of what is known about the customer’s requirements.</span></span>. Setting performance standards that are too low despite what is known about the customers’ requirements.</li>
+                <li>The <span class="margin_term"><a class="glossterm">delivery gap</a><span class="glossdef">A gap that results when a product fails to meet its performance standards.</span></span>. Failing to meet the performance standards established for an offering.</li>
+            </ol>
+            <p class="para editable block" id="fwk-133234-ch14_s03_s04_s01_p05">You can attribute the complaints your company receives to one of the four gaps and then use the information to figure out what must be done to fix the problem, assuming you have one. If the problem is overstating the performance, then perhaps your firm’s marketing promotions materials should be reviewed. If it appears that the offering is simply not meeting the needs of your customers, then more work should be done to identify exactly what they are. If your firm is aware of the needs of its customers but there is a gap between their requirements and the standards set for your firm’s performance, then standards should be reviewed. Finally, your company’s processes should be examined to ensure that standards are being met.</p>
+            <p class="para editable block" id="fwk-133234-ch14_s03_s04_s01_p06">When the Smokey Bones chain of barbecue restaurants (owned by Darden Restaurants) noticed falling profits, managers cut costs by eliminating some items from the menu. Unfortunately, these were the items that made the chain unique; once they were gone, there was nothing distinctive about the chain’s offerings. When customers complained, servers replied, “Yes, a lot of people have complained that those products are no longer available.” But apparently, there was no process or way to get those complaints to register with the company’s management. As a result, the company didn’t realize why it was losing customers, and its profits continued to spiral downward. Many locations were closed and the company filed for bankruptcy.</p>
+            <p class="para editable block" id="fwk-133234-ch14_s03_s04_s01_p07">Keep in mind that the complaint handling process itself is subject to complaints. As we mentioned, customers want a process that’s fair, even if the outcome isn’t what they hoped for. Consequently, monitoring your firm’s customer satisfaction levels also means you must monitor how satisfied customers are with how their complaints were handled.</p>
+            <div class="key_takeaways editable block" id="fwk-133234-ch14_s03_s04_s01_n01">
+                <h3 class="title">Key Takeaway</h3>
+                <p class="para" id="fwk-133234-ch14_s03_s04_s01_p08">Measuring customer satisfaction is an important element of customer empowerment. But satisfaction alone is a minimal level of acceptable performance. It means that the customer’s expectations were met. Getting positive word of mouth requires exceeding those expectations. To minimize the number of complaints a company needs an effective process of both handling complaints and understanding their causes so any problems can be corrected. Because the complaint process itself is subject to complaints, monitoring your firm’s customer satisfaction levels also means you must monitor how satisfied customers are with your company’s complaint handling system.</p>
+            </div>
+            <div class="exercises editable block" id="fwk-133234-ch14_s03_s04_s01_n02">
+                <h3 class="title">Review Questions</h3>
+                <ol class="orderedlist" id="fwk-133234-ch14_s03_s04_s01_l03">
+                    <li>Should a company be happy or concerned if most customers are satisfied?</li>
+                    <li>Why have customer satisfaction scores remained relatively steady over the past few years?</li>
+                    <li>What are the desired outcomes, from a marketer’s perspective, of a complaint management process?</li>
+                    <li>How would marketing management use customer satisfaction survey results?</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <div class="callout block">
+        <h3 class="title"><a href="http://2012books.lardbucket.org/attribution.html?utm_source=citation">[citation redacted per publisher request]</a></h3>
+        <p class="para"><a href="http://2012books.lardbucket.org/attribution.html?utm_source=citation">[citation redacted per publisher request]</a></p>
+    </div>
+</div>
+
+  </div>
+  
+  <div id=navbar-bottom class="navbar">
+    <div class="navbar-part left">
+      
+        <a href="s17-02-loyalty-management.html"><img src="shared/images/batch-left.png"></a> <a href="s17-02-loyalty-management.html">Previous Section</a>
+      
+    </div>
+    <div class="navbar-part middle">
+      <a href="index.html"><img src="shared/images/batch-up.png"></a> <a href="index.html">Table of Contents</a>
+    </div>
+    <div class="navbar-part right">
+      
+        <a href="s17-04-ethics-laws-and-customer-empow.html">Next Section</a> <a href="s17-04-ethics-laws-and-customer-empow.html"><img src="shared/images/batch-right.png"></a>
+      
+    </div>
+  </div>
+
+  </div>
+  <script type="text/javascript" src="shared/book.js"></script>
+  
+  
+</body>
+</html>
